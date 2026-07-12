@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Lane Dye Studio</title>
+<meta name="description" content="Get in touch with Lane Dye Studio.">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="images/favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="wordmark"><img src="images/logo-icon.png" class="wordmark-icon" alt=""><span class="wordmark-text">Lane Dye<span>Studio</span></span></a>
+  <ul class="nav-links">
+    <li><a href="work.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="wrap" style="padding-top:56px;">
+  <div class="section-head" style="border-bottom:none;">
+    <h2 style="font-size:clamp(2rem,4vw,3rem);">Contact</h2>
+  </div>
+
+  <div class="contact-stack">
+    <a class="contact-email" href="mailto:hello@lanedye.com">hello@lanedye.com</a>
+    <p class="contact-note">For custom commissions, wholesale, press, or just to say hello — reach out directly and I'll get back to you. Pieces are made to order, so turnaround and pricing depend on what you have in mind; include a rough idea and any references when you write in. The studio doesn't sell online yet, so email is the best way to reach me for now.</p>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>© <span id="year"></span> Lane Dye Studio</span>
+  <span>Ceramics &amp; Stained Glass, made by hand</span>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>

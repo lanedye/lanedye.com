@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lane Dye Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="images/favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="wordmark"><img src="images/logo-icon.png" class="wordmark-icon" alt=""><span class="wordmark-text">Lane Dye<span>Studio</span></span></a>
+  <ul class="nav-links">
+    <li><a href="work.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <video class="hero-img" autoplay muted loop playsinline preload="auto" poster="images/new-02-full.jpg">
+    <source src="video/hero-vase.webm" type="video/webm">
+    <source src="video/hero-vase.mp4" type="video/mp4">
+  </video>
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <h1>Shaped by Gothic arches.</h1>
+    <p>Lane Dye Studio is the work of Lane Dye- functional ceramic stoneware and decorative stained glass panels inspired by gothic architecture.</p>
+    <span class="hero-location">Handmade in Nashville, TN</span>
+  </div>
+</header>
+
+<section class="wrap statement">
+  <span class="statement-label">The Idea</span>
+  <p class="statement-text">The gothic arch has long framed moments of transition and light—as passages from one place to another and as windows that transform light into color. My work explores that same enduring form, one vessel and one panel at a time.</p>
+</section>
+
+<section class="wrap">
+  <div class="section-head">
+    <h2>Selected Work</h2>
+    <a href="work.html" class="btn alt">See more work →</a>
+  </div>
+  <div class="collage">
+    <a class="collage-item" href="work.html">
+      <img src="images/new-01.jpg" alt="New gothic arch vase, deep red, blue, and yellow stained-glass glaze">
+      <div class="collage-caption"><span class="t">Arch Vase, No. 1</span><span class="m">Stoneware</span></div>
+    </a>
+    <a class="collage-item" href="work.html">
+      <img src="images/new-02-a.jpg" alt="Faceted star vase, green and yellow star pattern stained-glass glaze">
+      <div class="collage-caption"><span class="t">Star Vase</span><span class="m">Stoneware</span></div>
+    </a>
+    <a class="collage-item" href="work.html">
+      <img src="images/ceramic-02.jpg" alt="Gothic arch vase, deep red and navy stained-glass glaze">
+      <div class="collage-caption"><span class="t">Arch Vase, No. 3</span><span class="m">Stoneware</span></div>
+    </a>
+    <a class="collage-item" href="work.html">
+      <img src="images/ceramic-09.jpg" alt="Twin-arch coaster holder with pinwheel coasters fanned out">
+      <div class="collage-caption"><span class="t">Arch Coaster Set</span><span class="m">Stoneware, set of 6</span></div>
+    </a>
+    <a class="collage-item" href="work.html">
+      <img src="images/ceramic-03.jpg" alt="Gothic arch vase, teal and olive stained-glass glaze">
+      <div class="collage-caption"><span class="t">Arch Vase, No. 4</span><span class="m">Stoneware</span></div>
+    </a>
+    <a class="collage-item" href="work.html">
+      <img src="images/ceramic-10.jpg" alt="Hexagon tile coaster set with matching arch holder">
+      <div class="collage-caption"><span class="t">Hexagon Coaster Set</span><span class="m">Stoneware, set of 6</span></div>
+    </a>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>© <span id="year"></span> Lane Dye Studio</span>
+  <span>Ceramics &amp; Stained Glass, made by hand</span>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>
